@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Tarefa Aula 03</title>
+	<style type="text/css">
+body {
+	margin: 2em 5em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h1, legend {
+	font-family:Arial, Helvetica, sans-serif;
+}
+label, input, select {
+	display:block;
+}
+input, select {
+	margin-bottom: 1em;
+}
+fieldset {
+	margin-bottom: 2em;
+	padding: 1em;
+}
+fieldset fieldset {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+input[type="checkbox"] {
+	display:inline;
+}
+.range {
+	margin-bottom:1em;
+}	
+.card-type input, .card-type label {
+	display:inline-block;
+}
+	</style>	
+</head>
+<body>
+<form id="register">
+
+  <fieldset> 
+    <legend>Efetuar Registros</legend> 
+    <div> 
+        <label>Nome:
+        <input id="given-name" name="given-name" type="text"  required autofocus> 
+		</label>
+    </div>
+    <div> 
+    	<label>Data de Nascimento:
+        <input id="dob" name="dob" type="date" required>
+		</label>
+    </div> 
+
+    <div> 
+        <label>Email: 
+        <input id="email" name="email" type="email" required>
+		</label> 
+    </div> 
+    <div> 
+        <label>Senha:
+        <input id="given-name" name="given-name" type="text"  required autofocus> 
+		</label>
+    </div>
+    <div> 
+        <label>Sexo: 
+        <input id="country" name="country" list="country-names" type="text" required> 
+        <datalist id="country-names"> 
+        	<option label="Masculino" value="Masculino"></option> 
+        	<option label="Feminino" value="Feminino"></option> 
+        </datalist>
+		</label> 
+    </div> 
+    <div> 
+        <label>Telefone Residencial: 
+        <input id="phone" name="phone" type="tel"  required>
+		</label> 
+    </div> 
+    <div> 
+        <label>Celular: 
+        <input id="phone" name="phone" type="tel"  required>
+		</label> 
+    </div> 
+    <div> 
+        <label>Fumante: 
+        <input id="country2" name="country2" list="country-names2" type="text" required> 
+        <datalist id="country-names2"> 
+        	<option label="Sim" value="Sim"></option> 
+        	<option label="Não" value="Não"></option> 
+        </datalist>
+		</label> 
+    </div>
+    <div> 
+        <label>Município de Origem:
+        <input id="given-name" name="given-name" type="text"  required autofocus> 
+		</label>
+    </div>
+    <div> 
+	    <button type=submit>Cancelar</button> 
+        <button type=submit>Gravar</button> 
+    </div> 
+
+    
+	
+  </fieldset>
+
+  <fieldset> 
+    <legend>Dados</legend> 
+    
+    <div> 
+        <label>Nome:
+        <input id="given-name" name="given-name" type="text"  required autofocus> 
+		</label>
+    </div>
+    <div> 
+    	<label>Data de Nascimento:
+        <input id="dob" name="dob" type="date" required>
+		</label>
+    </div> 
+
+    <div> 
+        <label>Email: 
+        <input id="email" name="email" type="email" required>
+		</label> 
+    </div> 
+    <div> 
+        <label>Senha:
+        <input id="given-name" name="given-name" type="text"  required autofocus> 
+		</label>
+    </div>
+    <div> 
+        <label>Sexo: 
+        <input id="country" name="country" list="country-names" type="text" required> 
+        <datalist id="country-names"> 
+        	<option label="Masculino" value="Masculino"></option> 
+        	<option label="Feminino" value="Feminino"></option> 
+        </datalist>
+		</label> 
+    </div> 
+    <div> 
+        <label>Telefone Residencial: 
+        <input id="phone" name="phone" type="tel"  required>
+		</label> 
+    </div> 
+    <div> 
+        <label>Celular: 
+        <input id="phone" name="phone" type="tel"  required>
+		</label> 
+    </div> 
+    <div> 
+        <label>Fumante: 
+        <input id="country2" name="country2" list="country-names2" type="text" required> 
+        <datalist id="country-names2"> 
+        	<option label="Sim" value="Sim"></option> 
+        	<option label="Não" value="Não"></option> 
+        </datalist>
+		</label> 
+    </div>
+    <div> 
+        <label>Município de Origem:
+        <input id="given-name" name="given-name" type="text"  required autofocus> 
+		</label>
+    </div>
+    <div> 
+	    <button type=submit>Limpar</button> 
+       
+    </div> 
+
+    
+	
+  </fieldset>
+   
+</form> 
+</body>
+</html>
